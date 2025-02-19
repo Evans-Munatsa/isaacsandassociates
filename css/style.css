@@ -8138,7 +8138,7 @@ h1, h2, h3, h4, h5,
         padding-right: 0 !important;
         padding-bottom: 0 !important; } }
     .ftco-navbar-light.scrolled .nav-item.active > a {
-      color: #83b582 !important; }
+      color: #e0c16b !important; }
     .ftco-navbar-light.scrolled .nav-item.cta > a {
       color: #fff !important;
       background: #83b582;
@@ -8719,9 +8719,9 @@ textarea.form-control {
     font-size: 20px;
     font-weight: 400; }
   .ftco-footer .ftco-footer-widget ul li a {
-    color: #83b582; }
+    color: #e0c16b; }
     .ftco-footer .ftco-footer-widget ul li a span {
-      color: #83b582; }
+      color: #e0c16b; }
   .ftco-footer .ftco-footer-widget .btn-primary {
     background: #fff !important;
     border: 2px solid #fff !important; }
