@@ -8110,7 +8110,7 @@ h1, h2, h3, h4, h5,
     border: 1px solid #2c2f3a;
     background: #2c2f3a !important; }
   .ftco-navbar-light .navbar-nav > .nav-item.active > a {
-    color: #83b582; }
+    color: #e0c16b; }
   .ftco-navbar-light .navbar-toggler {
     border: none;
     color: rgba(255, 255, 255, 0.5) !important;
@@ -8238,7 +8238,7 @@ h1, h2, h3, h4, h5,
 
 .slider-text .subheading {
   font-size: 16px;
-  color: rgba(255, 255, 255, 0.9);
+  color: #693271;
   font-family: "Poppins", Arial, sans-serif;
   font-weight: 600; }
 
@@ -8376,8 +8376,8 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #83b582 !important;
-    border: 1px solid #83b582 !important;
+    background: #693271 !important;
+    border: 1px solid #693271 !important;
     color: #fff !important; }
     .btn.btn-primary:hover {
       border: 1px solid #83b582;
@@ -8444,7 +8444,8 @@ h1, h2, h3, h4, h5,
   @media (min-width: 768px) {
     .services-section .container-fluid {
       margin-top: -228px;
-      border-top: 1px solid rgba(255, 255, 255, 0.3); } }
+      border-top: 5px solid #693271;
+      background-color:#e0c16b; } }
   @media (max-width: 991.98px) {
     .services-section .container-fluid {
       background: rgba(255, 255, 255, 0.9); } }
@@ -8473,7 +8474,7 @@ h1, h2, h3, h4, h5,
         color: #fff; } }
   .services .num {
     font-weight: 600;
-    color: #83b582;
+    color: #693271;
     font-size: 18px; }
 
 .practice-area {
@@ -8485,7 +8486,8 @@ h1, h2, h3, h4, h5,
       border-left: none;
       border-bottom: 1px solid rgba(0, 0, 0, 0.08); } }
   .practice-area.border-b {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.08); }
+    /*border-bottom: 1px solid rgba(0, 0, 0, 0.08); */
+  }
   .practice-area.no-border-l {
     border-left: none; }
   .practice-area .icon {
@@ -8501,7 +8503,7 @@ h1, h2, h3, h4, h5,
     border-radius: 50%; }
     .practice-area .icon span {
       font-size: 50px;
-      color: #83b582;
+      color: #693271;
       -moz-transition: all 0.3s ease;
       -o-transition: all 0.3s ease;
       -webkit-transition: all 0.3s ease;
@@ -8660,7 +8662,7 @@ textarea.form-control {
   visibility: hidden; }
 
 .bg-primary {
-  background: #83b582 !important; }
+  background: #e0c16b !important; }
 
 .about-author .desc h3 {
   font-size: 24px; }
@@ -8846,17 +8848,18 @@ textarea.form-control {
   display: block;
   margin-bottom: 5px;
   font-weight: 700;
-  color: #83b582; }
+  color: #693271; }
 
 .heading-section h2 {
   font-size: 40px;
-  font-weight: 700; }
+  font-weight: 700;
+  color: #e0c16b; }
   @media (max-width: 767.98px) {
     .heading-section h2 {
       font-size: 28px; } }
 
 .heading-section.heading-section-white .subheading {
-  color: rgba(255, 255, 255, 0.5); }
+  color: #693271; }
 
 .heading-section.heading-section-white h2 {
   font-size: 40px;
@@ -9078,7 +9081,7 @@ textarea.form-control {
       position: absolute;
       top: 0;
       left: 0;
-      background: #83b582; }
+      background: #693271; }
       .blog-entry .text .topper:after {
         position: absolute;
         bottom: -10px;
@@ -9088,7 +9091,7 @@ textarea.form-control {
         height: 0;
         border-style: solid;
         border-width: 10px 10px 0 10px;
-        border-color: #83b582 transparent transparent transparent; }
+        border-color: #693271 transparent transparent transparent; }
     .blog-entry .text .heading {
       font-size: 18px;
       margin-bottom: 16px;
@@ -9310,7 +9313,7 @@ textarea.form-control {
         color: rgba(0, 0, 0, 0.7) !important; }
     .subscribe-form .form-group .submit {
       color: #fff !important;
-      background: #63a262 !important;
+      background: #693271 !important;
       border-radius: 0px 5px 5px 0px;
       font-size: 16px; }
       .subscribe-form .form-group .submit:hover {
@@ -9489,7 +9492,7 @@ textarea.form-control {
   .block-2 .front {
     -webkit-transform: rotateY(0deg);
     -ms-transform: rotateY(0deg);
-    background: lightgreen;
+    background: #693271;
     z-index: 2;
     background-size: cover;
     background-position: center center;
@@ -9502,7 +9505,7 @@ textarea.form-control {
       bottom: 0;
       left: 0;
       opacity: .7;
-      background: rgba(255, 255, 255, 0);
+      background: #693271;
       background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.15) 38%, rgba(0, 0, 0, 0.4) 100%);
       background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(38%, rgba(255, 255, 255, 0.15)), color-stop(100%, rgba(0, 0, 0, 0.4)));
       background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.15) 38%, rgba(0, 0, 0, 0.4) 100%);
@@ -9528,7 +9531,7 @@ textarea.form-control {
       .block-2 .front .box p {
         font-size: 12px; }
   .block-2 .back {
-    background: #83b582;
+    background: #e0c16b;
     -webkit-box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.4);
     box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.4);
     -webkit-transform: rotateY(-180deg);
