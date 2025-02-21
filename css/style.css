@@ -57,7 +57,9 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff; }
+  /*background-color: #fff;*/
+  /*background-color: #0c0c0c;*/
+  }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -74,7 +76,9 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  color: white;
+  }
 
 abbr[title],
 abbr[data-original-title] {
@@ -7996,7 +8000,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   font-family: "Poppins", Arial, sans-serif;
-  background: #fff;
+  /*background: #fff;*/
+  background-color: #0c0c0c;
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
