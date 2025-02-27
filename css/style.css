@@ -8243,7 +8243,7 @@ h1, h2, h3, h4, h5,
 
 .slider-text .subheading {
   font-size: 16px;
-  color: #693271;
+  color: #e0c16b;
   font-family: "Poppins", Arial, sans-serif;
   font-weight: 600; }
 
@@ -8450,7 +8450,7 @@ h1, h2, h3, h4, h5,
     .services-section .container-fluid {
       margin-top: -228px;
       border-top: 5px solid #693271;
-      background-color:#e0c16b; } }
+      background-color:#693271; } }
   @media (max-width: 991.98px) {
     .services-section .container-fluid {
       background: rgba(255, 255, 255, 0.9); } }
@@ -8479,7 +8479,7 @@ h1, h2, h3, h4, h5,
         color: #fff; } }
   .services .num {
     font-weight: 600;
-    color: #693271;
+    color: #e0c16b;
     font-size: 18px; }
 
 .practice-area {
