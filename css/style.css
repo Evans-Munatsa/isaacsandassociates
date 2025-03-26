@@ -8001,7 +8001,7 @@ a.text-dark:hover, a.text-dark:focus {
 body {
   font-family: "Poppins", Arial, sans-serif;
   /*background: #fff;*/
-  background-color: #0c0c0c;
+  background-color: #333333;
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
@@ -8508,7 +8508,7 @@ h1, h2, h3, h4, h5,
     border-radius: 50%; }
     .practice-area .icon span {
       font-size: 50px;
-      color: #693271;
+      color: #e0c16b;
       -moz-transition: all 0.3s ease;
       -o-transition: all 0.3s ease;
       -webkit-transition: all 0.3s ease;
@@ -8517,7 +8517,7 @@ h1, h2, h3, h4, h5,
   .practice-area h3 {
     font-size: 20px; }
     .practice-area h3 a {
-      color: #000000; }
+      color: #e0c16b; }
   .practice-area:hover .icon, .practice-area:focus .icon {
     background: #fff; }
     .practice-area:hover .icon span, .practice-area:focus .icon span {
