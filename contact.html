@@ -84,7 +84,7 @@
             <p><span>Phone:</span> <a href="tel://1234567920">021 110 5546</a></p>
           </div>
           <div class="col-md-4">
-            <p><span>Email:</span> <a href="mailto:reception@isaacsandassociates.co.za">info@isaacsandassociates.co.za</a></p>
+            <p><span>Email:</span> <a href="mailto:reception@isaacsandassociates.co.za">reception@isaacsandassociates.co.za</a></p>
           </div>
         </div>
         <div class="row block-9">
@@ -201,21 +201,21 @@
 
 
         <script type="text/javascript">
-    function sendMail() {
-      let params = {
-        name: document.getElementById("name").value,
-        email: document.getElementById("email").value,
-        subject: document.getElementById("subject").value,
-        message: document.getElementById("message").value
-      };
+    // function sendMail() {
+    //   let params = {
+    //     name: document.getElementById("name").value,
+    //     email: document.getElementById("email").value,
+    //     subject: document.getElementById("subject").value,
+    //     message: document.getElementById("message").value
+    //   };
 
-      emailjs.send("service_4p1nfnh", "template_x8cdz4j", params)
-        .then(function(response) {
-          alert("Email Sent!");
-        }, function(error) {
-          console.error("FAILED...", error);
-        });
-    }
+    //   emailjs.send("service_4p1nfnh", "template_x8cdz4j", params)
+    //     .then(function(response) {
+    //       alert("Email Sent!");
+    //     }, function(error) {
+    //       console.error("FAILED...", error);
+    //     });
+    // }
   </script>
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
@@ -232,6 +232,7 @@
   <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script> -->
   <!-- <script src="js/google-map.js"></script> -->
   <script src="js/main.js"></script>
+  <script type="js/email.js"></script>
     
   </body>
 </html>
