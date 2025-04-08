@@ -34,18 +34,23 @@
      })();
     </script>
 
-    <script type="text/javascript">
-      function sendMail() {
-  let params = {
-    name : document.getElementById("name").value
-    email : document.getElementById("email").value
-    subject : document.getElementById("subject").value
-    message : document.getElementById("message").value
-  }
+      <script type="text/javascript">
+    function sendMail() {
+      let params = {
+        name: document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        subject: document.getElementById("subject").value,
+        message: document.getElementById("message").value
+      };
 
-  emailjs.send("service_4p1nfnh", "template_x8cdz4j", params).then(alert("Email Sent!!"))
-}
-    </script>
+      emailjs.send("service_4p1nfnh", "template_x8cdz4j", params)
+        .then(function(response) {
+          alert("Email Sent!");
+        }, function(error) {
+          console.error("FAILED...", error);
+        });
+    }
+  </script>
     <!-- <script src="js/email.js"></script> -->
   </head>
   <body>
@@ -115,9 +120,12 @@
               <div class="form-group">
                 <textarea name="" id="" cols="30" rows="7" id="message" class="form-control" placeholder="Message"></textarea>
               </div>
+
+              <button onclick="sendMail()">Send Email</button>
+<!-- 
               <div class="form-group">
                 <input type="submit" onclick="sendMail()" value="Send Message" class="btn btn-primary py-3 px-5">
-              </div>
+              </div> -->
             </form>
           
           </div>
